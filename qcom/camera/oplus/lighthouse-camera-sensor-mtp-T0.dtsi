@@ -750,6 +750,7 @@
 	oplus,camera_extension@0 {
 		compatible = "oplus,camera_extension";
 		enable_camera_extension;
+		non_exclusive_rgltr = "pm8010_m_l5", "pm8010_m_l7";
 		status = "ok";
 	};
 
